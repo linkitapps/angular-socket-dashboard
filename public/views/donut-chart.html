@@ -1,0 +1,6 @@
+<div class="chart"></div>
+<div class="control">
+  <button type="button" ng-click="addSlice({value: 3})">조각 더하기</button>
+  <button type="button" ng-click="removeSlice()">조각 빼기</button>
+  <input type="range" ng-model="slice.value" min="0" max="5" step="1" ng-repeat="slice in data track by $index">
+</div>

@@ -1,0 +1,33 @@
+.container {
+  margin: 50px auto;
+  width: 850px;
+}
+
+.chart-container {
+  float: left;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  min-height: 300px;
+  border: 1px solid #ddd;
+}
+
+.chart {
+  height: 200px;
+}
+
+.control {
+  padding-top: 20px;
+  min-height: 80px;
+  text-align: center;
+}
+
+.control button {
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.control input {
+  margin-top: 5px;
+  width: 100%;
+}

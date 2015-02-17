@@ -1,0 +1,29 @@
+<!doctype html>
+<html ng-app="dashboard">
+<head>
+  <meta charset="utf-8">
+  <title>AngularJS + Socket.io Realtime Dashboard</title>
+
+  <link rel="stylesheet" href="/bower_components/normalize.css/normalize.css">
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body ng-controller="DashboardController">
+
+  <div class="container">
+    <donut-chart data="chartData.chart1" chart-id="chart1" class="chart-container"></donut-chart>
+    <donut-chart data="chartData.chart2" chart-id="chart2" class="chart-container"></donut-chart>
+    <donut-chart data="chartData.chart3" chart-id="chart3" class="chart-container"></donut-chart>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/bower_components/angular/angular.min.js"></script>
+  <script src="/bower_components/d3/d3.min.js"></script>
+  <script src="/bower_components/lodash/lodash.min.js"></script>
+
+  <script src="/scripts/app.js"></script>
+  <script src="/scripts/controllers.js"></script>
+  <script src="/scripts/directives.js"></script>
+  <script src="/scripts/services.js"></script>
+
+</body>
+</html>
