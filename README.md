@@ -12,3 +12,9 @@ AngularJS + socket.io realtime dashboard
 node server.js
 
 http://localhost:3000 에서 확인하실 수 있습니다.
+
+## Demo
+
+https://www.screenr.com/CazN
+
+위 URL 에서 시연 동영상을 보실 수 있습니다.
